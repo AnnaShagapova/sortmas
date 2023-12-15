@@ -1,0 +1,39 @@
+
+.btn{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    max-width:300px;
+    border: solid rgb(108, 219, 102) 1px;
+    border-radius: 10px;
+    background-color: rgb(151, 239, 157);
+    text-decoration: none;
+}
+.catalog{
+    padding: 10px;
+    margin: 0 90px;
+}
+.container{
+    background-color: cadetblue;
+    width: 100%;
+    min-height: 300px;
+}
+.cards{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    /* grid-template-rows: 200px 300px 500px 200px 300px; */
+}
+.card_img{
+    width: 90%;
+    max-width: 150px;
+}
+.card_item{
+    background-color:cornflowerblue;
+    padding: 10px;
+    text-align: center;
+}
